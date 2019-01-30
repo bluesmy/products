@@ -48,4 +48,5 @@ def main():
 	print_products(products)
 	write_file('products.csv', products)
 
-main()
+if __name__ == '__main__':
+	main()
